@@ -1,0 +1,36 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "requirements": {
+    "name": "bettercompat:lunge",
+    "level": 2,
+    "error": "recipe.bettercompat.modifier.lunge_level_3"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "result": {
+    "name": "bettercompat:lunge",
+    "level": 1
+  },
+  "max_level": 3
+}

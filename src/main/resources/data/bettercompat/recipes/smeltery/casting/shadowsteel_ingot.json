@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "undead_expansion",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_shadowsteel",
+    "amount": 144
+  },
+  "result": "undead_expansion:shadowsteel_ingot",
+  "cooling_time": 85
+}

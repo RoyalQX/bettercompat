@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "betternether:nether_ruby_block"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "bettercompat:ruby",
+  "leftover": {
+    "item": "betternether:nether_ruby"
+  }
+}

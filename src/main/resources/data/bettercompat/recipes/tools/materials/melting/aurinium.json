@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "bettercompat:aurinium",
+  "temperature": 1500,
+  "result": {
+    "fluid": "bettercompat:molten_aurinium",
+    "amount": 144
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "forge:nuggets/endorium",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/endorium"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_endorium",
+    "amount": 16
+  },
+  "temperature": 1000,
+  "time": 25
+}

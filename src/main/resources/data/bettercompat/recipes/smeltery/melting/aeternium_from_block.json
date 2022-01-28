@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "betterendforge",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "betterendforge:aeternium_block"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_aeternium",
+    "amount": 1296
+  },
+  "temperature": 1250,
+  "time": 200
+}

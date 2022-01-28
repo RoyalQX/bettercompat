@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "oresabovediamonds",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:gems/black_opal"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_blackopal",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 75
+}

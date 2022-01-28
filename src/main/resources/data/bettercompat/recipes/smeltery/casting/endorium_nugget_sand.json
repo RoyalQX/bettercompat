@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "endreborn",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:single_use/nugget"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_endorium",
+    "amount": 16
+  },
+  "result": "endreborn:endorium_nugget",
+  "cooling_time": 29
+}

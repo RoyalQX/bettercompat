@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "endreborn",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/endorium"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_endorium",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 75
+}

@@ -1,0 +1,23 @@
+{  
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/amethyst",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gem"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_amethyst",
+    "amount": 144
+  },
+  "result": {
+    "tag": "forge:gems/amethyst"
+  },
+  "cooling_time": 85
+}

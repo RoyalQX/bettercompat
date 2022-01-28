@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_aurinium",
+    "amount": 144
+  },
+  "result": "bettercompat:aurinium_ingot",
+  "cooling_time": 85
+}

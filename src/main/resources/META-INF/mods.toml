@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[36,)" 
+license="All rights reserved"
+
+[[mods]]
+modId="bettercompat" 
+version="0.3.8"
+displayName="Tinkers Better Compat"
+logoFile=""
+credits=""
+authors="ianm1647"
+description="Adds support for additional molten forms of metals in the tinkers construct smeltery"
+
+
+[[dependencies.bettercompat]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bettercompat]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bettercompat]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.0.2.84,)"
+    ordering="NONE"
+    side="BOTH"

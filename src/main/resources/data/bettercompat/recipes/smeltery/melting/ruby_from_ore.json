@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/amethyst",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+  	"tag": "forge:ores/ruby",
+  },
+  "result": {
+    "fluid": "bettercompat:molten_ruby",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 100
+}

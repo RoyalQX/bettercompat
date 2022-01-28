@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "forge:gems/amber",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      },
+      {
+        "modid": "cyclic",
+        "type": "forge:mod_loaded"
+      },
+      {
+        "modid": "betterendforge",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": true,
+  "tier": 1,
+  "sortOrder": 2,
+  "textColor": "#ff9031",
+  "hidden": false
+}

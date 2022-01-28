@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "bettercompat:molten_sapphire",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "output": "bettercompat:sapphire"
+}

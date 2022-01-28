@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "tconstruct:molten_emerald",
+    "amount": 250
+  },
+  "temperature": 1450,
+  "output": "bettercompat:emerald"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "bettercompat:certus_quartz",
+  "temperature": 800,
+  "result": {
+    "fluid": "bettercompat:molten_certus_quartz",
+    "amount": 144
+  }
+}

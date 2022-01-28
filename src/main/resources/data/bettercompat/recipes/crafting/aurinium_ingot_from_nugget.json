@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bettercompat:aurinium_nugget"
+    }
+  },
+  "result": {
+    "item": "bettercompat:aurinium_ingot"
+  }
+}

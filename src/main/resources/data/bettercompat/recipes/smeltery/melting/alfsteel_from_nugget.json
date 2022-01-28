@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "mythicbotany",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mythicbotany:alfsteel_nugget"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_alfsteel",
+    "amount": 16
+  },
+  "temperature": 1500,
+  "time": 25
+}

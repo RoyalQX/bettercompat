@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "bettercompat:aurinium_block"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "bettercompat:aurinium",
+  "leftover": {
+    "item": "bettercompat:aurinium_ingot"
+  }
+}

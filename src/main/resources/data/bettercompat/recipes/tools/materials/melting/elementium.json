@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "bettercompat:elementium",
+  "temperature": 1000,
+  "result": {
+    "fluid": "bettercompat:molten_elementium",
+    "amount": 144
+  }
+}

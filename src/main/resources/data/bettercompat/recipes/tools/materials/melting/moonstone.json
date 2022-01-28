@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "bettercompat:moonstone",
+  "temperature": 1000,
+  "result": {
+    "fluid": "bettercompat:molten_moonstone",
+    "amount": 144
+  }
+}

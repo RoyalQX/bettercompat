@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "druidcraft",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "bettercompat:molten_moonstone",
+    "amount": 1296
+  },
+  "result": "druidcraft:moonstone_block",
+  "cooling_time": 200
+}

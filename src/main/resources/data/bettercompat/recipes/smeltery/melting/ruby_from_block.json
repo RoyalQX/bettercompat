@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/amethyst",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/ruby"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_ruby",
+    "amount": 1296
+  },
+  "temperature": 1000,
+  "time": 200
+}

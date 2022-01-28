@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/sapphire",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+  	"tag": "forge:ores/sapphire",
+  },
+  "result": {
+    "fluid": "bettercompat:molten_sapphire",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 100
+}

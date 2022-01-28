@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "bettercompat:enderium",
+  "temperature": 1500,
+  "result": {
+    "fluid": "bettercompat:molten_enderium",
+    "amount": 144
+  }
+}

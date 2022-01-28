@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "projecte:red_matter_block"
+  },
+  "value": 4,
+  "needed": 1,
+  "material": "bettercompat:red_matter",
+  "leftover": {
+    "item": "projecte:red_matter"
+  }
+}

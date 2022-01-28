@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "bettercompat:aurinium_ingot"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_aurinium",
+    "amount": 144
+  },
+  "temperature": 1500,
+  "time": 75
+}

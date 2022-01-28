@@ -1,0 +1,27 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "forge:gems/ruby",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      },
+      {
+        "modid": "betternether",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 2,
+  "textColor": "#930015",
+  "hidden": false
+}

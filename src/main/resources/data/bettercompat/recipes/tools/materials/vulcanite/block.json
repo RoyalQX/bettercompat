@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "vulcanite:vulcanite_block"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "bettercompat:vulcanite",
+  "leftover": {
+    "item": "vulcanite:vulcanite_ingot"
+  }
+}

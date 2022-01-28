@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "iceandfire:dragonsteel_fire_block"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "bettercompat:firedragonsteel",
+  "leftover": {
+    "tag": "forge:ingots/dragonsteel_fire"
+  }
+}

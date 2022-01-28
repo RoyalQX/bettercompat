@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "druidcraft",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 2,
+  "textColor": "#6EB2EA",
+  "hidden": false
+}

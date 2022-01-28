@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "forge:gems/amethyst",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      },
+      {
+        "modid": "oresabovediamonds",
+        "type": "forge:mod_loaded"
+      },
+      {
+        "modid": "iceandfire",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 2,
+  "textColor": "#B859CB",
+  "hidden": false
+}

@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "betternether",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+  	"item": "betternether:cincinnasite_ore",
+  },
+  "result": {
+    "fluid": "bettercompat:molten_cincinnasite",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 100
+}

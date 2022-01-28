@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "vulcanite",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "vulcanite:vulcanite_ingot"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_vulcanite",
+    "amount": 144
+  },
+  "temperature": 1500,
+  "time": 75
+}

@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "betterendforge",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/thallasium"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_thallasium",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 100
+}

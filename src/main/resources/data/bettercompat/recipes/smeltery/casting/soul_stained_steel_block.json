@@ -1,0 +1,22 @@
+{  
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "malum",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "bettercompat:molten_soul_stained_steel",
+    "amount": 1296
+  },
+  "result": "malum:soul_stained_steel_block",
+  "cooling_time": 200
+}

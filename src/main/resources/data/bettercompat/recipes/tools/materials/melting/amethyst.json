@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "bettercompat:amethyst",
+  "temperature": 1000,
+  "result": {
+    "fluid": "bettercompat:molten_amethyst",
+    "amount": 144
+  }
+}

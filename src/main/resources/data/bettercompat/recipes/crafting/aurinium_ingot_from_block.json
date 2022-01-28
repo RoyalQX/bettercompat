@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bettercompat:aurinium_block"
+    }
+  ],
+  "result": {
+    "item": "bettercompat:aurinium_ingot",
+    "count": 9
+  }
+}

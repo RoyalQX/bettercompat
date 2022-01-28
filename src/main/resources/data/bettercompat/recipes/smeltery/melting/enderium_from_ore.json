@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "enderium",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "item": "enderium:enderium_ore"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_enderium",
+    "amount": 144
+  },
+  "temperature": 1500,
+  "time": 100
+}

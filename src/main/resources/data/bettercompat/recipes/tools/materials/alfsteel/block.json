@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "mythicbotany:alfsteel_block"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "bettercompat:alfsteel",
+  "leftover": {
+    "item": "mythicbotany:alfsteel_ingot"
+  }
+}

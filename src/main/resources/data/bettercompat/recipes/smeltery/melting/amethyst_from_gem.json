@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/amethyst",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:gems/amethyst"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_amethyst",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 75
+}

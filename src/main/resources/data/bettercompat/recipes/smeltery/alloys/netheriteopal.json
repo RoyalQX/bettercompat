@@ -1,0 +1,31 @@
+{  
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "oresabovediamonds",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_debris",
+      "amount": 288
+    },
+    {
+      "name": "bettercompat:molten_blackopal",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "bettercompat:molten_netheriteopal",
+    "amount": 250
+  },
+  "temperature": 1250
+}

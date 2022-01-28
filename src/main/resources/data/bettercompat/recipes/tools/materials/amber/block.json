@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/amber_block", 
+           "forge:storage_blocks/amber"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "bettercompat:amber",
+  "leftover": {
+    "tag": "forge:gems/amber"
+  }
+}

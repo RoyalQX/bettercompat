@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "endreborn",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "bettercompat:molten_endorium",
+    "amount": 1296
+  },
+  "result": "endreborn:endorium_block",
+  "cooling_time": 200
+}

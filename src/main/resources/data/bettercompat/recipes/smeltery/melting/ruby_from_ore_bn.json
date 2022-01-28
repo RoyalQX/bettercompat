@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "betternether",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+  	"item": "betternether:nether_ruby_ore",
+  },
+  "result": {
+    "fluid": "bettercompat:molten_ruby",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 100
+}

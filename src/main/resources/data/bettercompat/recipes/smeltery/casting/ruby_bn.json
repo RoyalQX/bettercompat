@@ -1,0 +1,23 @@
+{  
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gems/ruby",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gem"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_ruby",
+    "amount": 144
+  },
+  "result": {
+    "tag": "forge:gems/ruby"
+  },
+  "cooling_time": 85
+}

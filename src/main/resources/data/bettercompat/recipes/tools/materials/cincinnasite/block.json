@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "betternether:cincinnasite_forged"
+  },
+  "value": 4,
+  "needed": 1,
+  "material": "bettercompat:cincinnasite",
+  "leftover": {
+    "item": "betternether:cincinnasite_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "bettercompat:aurinium_nugget"
+  },
+  "result": {
+    "fluid": "bettercompat:molten_aurinium",
+    "amount": 16
+  },
+  "temperature": 1500,
+  "time": 25
+}

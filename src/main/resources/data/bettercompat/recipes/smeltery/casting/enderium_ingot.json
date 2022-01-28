@@ -1,0 +1,25 @@
+{  
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "enderium",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_enderium",
+    "amount": 144
+  },
+  "result": "enderium:enderium_ingot",
+  "cooling_time": 85
+}

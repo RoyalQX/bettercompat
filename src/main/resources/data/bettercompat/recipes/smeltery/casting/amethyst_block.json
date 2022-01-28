@@ -1,0 +1,20 @@
+{  
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/amethyst",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "bettercompat:molten_amethyst",
+    "amount": 1296
+  },
+  "result": {
+    "tag": "forge:storage_blocks/amethyst"
+  },
+  "cooling_time": 200
+}
