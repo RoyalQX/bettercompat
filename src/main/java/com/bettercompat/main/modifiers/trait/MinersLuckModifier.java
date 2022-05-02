@@ -8,6 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.ModList;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.tools.context.ToolHarvestContext;
 import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
@@ -42,12 +43,16 @@ public class MinersLuckModifier extends Modifier {
 				world.addEntity(item);
 				break;
 			case 2:
-				item = new ItemEntity(world, x, y, z, new ItemStack(IafItemRegistry.SAPPHIRE_GEM));
-				world.addEntity(item);
+				if (ModList.get().isLoaded("iceandfire")) {
+					item = new ItemEntity(world, x, y, z, new ItemStack(IafItemRegistry.SAPPHIRE_GEM));
+					world.addEntity(item);
+				}
 				break;
 			case 3:
-				item = new ItemEntity(world, x, y, z, new ItemStack(IafItemRegistry.AMYTHEST_GEM));
-				world.addEntity(item);
+				if (ModList.get().isLoaded("iceandfire")) {
+					item = new ItemEntity(world, x, y, z, new ItemStack(IafItemRegistry.AMYTHEST_GEM));
+					world.addEntity(item);
+				}
 				break;
 			}
 		}
