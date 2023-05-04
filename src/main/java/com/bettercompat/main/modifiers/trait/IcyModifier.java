@@ -1,8 +1,7 @@
 package com.bettercompat.main.modifiers.trait;
 
-import com.github.alexthe666.citadel.server.entity.datatracker.EntityPropertiesHandler;
 import com.github.alexthe666.iceandfire.entity.EntityFireDragon;
-import com.github.alexthe666.iceandfire.entity.props.FrozenEntityProperties;
+import com.github.alexthe666.iceandfire.entity.props.FrozenProperties;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.potion.EffectInstance;
@@ -26,11 +25,10 @@ public class IcyModifier extends Modifier {
 			if (target instanceof EntityFireDragon) {
                 target.attackEntityFrom(DamageSource.DROWN, level + 12.5F);
 			}
-			FrozenEntityProperties frozenProps = EntityPropertiesHandler.INSTANCE.getProperties(target, FrozenEntityProperties.class);
-			frozenProps.setFrozenFor(200);
-			target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 100, 2));
-			target.addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, 100, 2));
-			target.applyKnockback(1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
+
+			FrozenProperties.setFrozenFor(target, 300);
+			target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 300, 2));
+			target.applyKnockback( 1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
 		}
 		return 0;
 	}
