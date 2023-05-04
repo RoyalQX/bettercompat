@@ -29,8 +29,8 @@ jobs:
       # bash pattern expansion to grab branch name without slashes
       run: ref="${GITHUB_REF#refs/heads/}" && echo "branch=${ref////-}" >> $GITHUB_OUTPUT
       id: ref
-        - name: Upload build artifacts
-          uses: actions/upload-artifact@v2
-          with:
-            name: bettercompat-artifacts-${{ steps.ref.outputs.branch }}
-            path: build/libs
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+          name: bettercompat-artifacts-${{ steps.ref.outputs.branch }}
+          path: build/libs
