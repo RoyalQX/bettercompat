@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
+version = '0.4.3'
 group = 'com.bettercompat'
 archivesBaseName = 'bettercompat'
 
