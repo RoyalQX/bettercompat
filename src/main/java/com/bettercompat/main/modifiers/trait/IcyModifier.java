@@ -28,6 +28,7 @@ public class IcyModifier extends Modifier {
 
 			FrozenProperties.setFrozenFor(target, 300);
 			target.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 300, 2));
+			target.addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, 100, 2));
 			target.applyKnockback( 1F, attacker.getPosX() - target.getPosX(), attacker.getPosZ() - target.getPosZ());
 		}
 		return 0;
